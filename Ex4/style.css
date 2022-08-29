@@ -1,0 +1,166 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+}
+.column-2{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 25%;
+}
+.column-3{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+}
+
+/*BARRAS DA ESQUERDA*/
+.column-1 div{
+    padding: 3.5px;
+}
+.row-sm{
+    width: 100%;
+    height: 20%;
+}
+.row-md{
+    width: 100%;
+    height:80%;
+}
+
+.row-teste{
+    width: 100%;
+    height:100%;
+}
+
+.row-big{
+    width: 100%;
+    height:60%;
+}
+.row-medium{
+    width: 100%;
+    height:45%;
+}
+/*Barra laranja da esquerda*/
+.column-2 div{
+    padding: 3.5px;
+}
+
+.row-lg{
+    width: 100%;
+    height: 100%;
+}
+.row-mn{
+    width: 100%;
+    height: 40%;
+}
+
+.row-m {
+    width: 100%;
+    height: 50%;
+}
+
+.row-bg{
+    width: 100%;
+    height: 60%;
+}
+
+.row-b {
+    width: 100%;
+    height: 50%;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+.column-sm{
+    padding: 3.5px;
+    width: 48%;
+    height: 100%;
+}
+.column-md{
+    padding: 3.5px;
+    width: 50%;
+    height: 100%;
+}
+
+.column-d {
+    padding: 3.5px 0px;
+    width: 50%;
+    height: 100%;
+}
+
+.column-m{
+    padding: 3.5px 3.5px 3.5px 0px;
+    width: 49%;
+    height: 100%;
+}
+
+.column-lg{
+    padding: 3.5px;
+    width: 100%;
+    height: 100%;
+}
+.row-align{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bpadding{
+    padding-bottom: 7px;
+}
+
+/*cores*/
+.cyan{
+    background-color: rgb(18, 202, 202);
+}
+.blue{
+    background-color: rgb(0, 134, 211);
+}
+.purple{
+    background-color: rgb(113, 11, 160);
+}
+.orange{
+    background-color: rgb(255, 102, 0);
+}
+.pink{
+    background-color: rgb(221, 10, 140);
+}
+.light-green{
+    background-color: rgb(41, 212, 41);
+}
+.white{
+    background-color: rgb(214, 214, 214);
+}
+.green{
+    background-color: rgb(6, 175, 105);
+}
+.grey{
+    background-color: rgb(138, 138, 138);
+}
+.red{
+    background-color: rgb(207, 15, 15);
+}
